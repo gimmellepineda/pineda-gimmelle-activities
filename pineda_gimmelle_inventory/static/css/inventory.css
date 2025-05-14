@@ -1,0 +1,268 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f5f2;
+    margin: 0;
+    color: #2c3e50;
+}
+
+/* Elegant Header */
+.main-header {
+    background: linear-gradient(135deg, #a0ac46, #252815);
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.main-header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #d4af37;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-header .tagline {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.btn-logout {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-logout:hover {
+    background: #d4af37;
+    color: white;
+    transform: translateY(-52%);
+}
+
+.ornament {
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    margin: 1.5rem auto 0;
+}
+
+/* Main Container */
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Search Bar */
+.search-wrapper {
+    margin-bottom: 2rem;
+}
+
+.search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8e8e8e;
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    border: 2px solid #e0e6ed;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.search-input:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+    outline: none;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+.add-product-card {
+    border-top: 3px solid #d4af37;
+}
+
+.card-title {
+    font-family: 'Cormorant Garamond', serif;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
+.ornament {
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    margin: 1rem auto 2rem;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form-control {
+    border: 2px solid #e0e6ed;
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.form-control:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+    outline: none;
+}
+
+.btn-add {
+    width: 100%;
+    background: linear-gradient(45deg, #d4af37, #f1c40f);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+}
+
+/* Table Styles */
+.table-card {
+    overflow: hidden;
+}
+
+.custom-table {
+    margin: 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.custom-table thead th {
+    background: linear-gradient(45deg, #a5c67a, #98ae0a);
+    color: white;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.custom-table tbody td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #e0e6ed;
+    font-size: 0.95rem;
+}
+
+
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.btn-save {
+    background: linear-gradient(45deg, #d4af37, #f1c40f);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+}
+
+.btn-cancel {
+    border: 1px solid #e0e6ed;
+    background: white;
+    color: #2c3e50;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    
+    .sidebar-content {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+    }
+}
